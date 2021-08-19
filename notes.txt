@@ -1,0 +1,14 @@
+Utilisation de pipvenv gerer l'environement du projet
+# Commande qui cree l'environement s'il n'existe pas deja et installe django s'il n'est pas deja installe
+pipenv install django
+
+# Package qu'on utilise
+django-admin
+# Pour creer le projet a partir du directory courant
+django-admin startproject storefront .
+
+# Start le site
+python manage.py runserver
+
+# Pour ajouter une app
+python manage.py startapp <app_name>
